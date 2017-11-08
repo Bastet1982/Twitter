@@ -1,0 +1,85 @@
+body{
+  margin: 0 auto;
+}
+
+.t1{        /*TITULO ENCABEZADO*/
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 100;
+	color: white;
+	background: #28AAE1;
+	text-align: center;
+	padding: 7px;
+}
+
+.back{    /*IMAGEN DE FONDO*/
+	background-image: url(https://img00.deviantart.net/40be/i/2012/203/2/3/fondos_para_twitter_jpg_by_gianferdinand-d587jdz.jpg);
+	height:700px;
+	width:1420px;
+	margin-top: -20px; 
+}	
+.data{       /*SALUDO*/
+	
+	background: white;
+	margin-left: 100px;
+	font-family: Roboto;
+	height: 200px;
+	width: 450px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	
+}
+h3{
+	color:blue;
+	margin-top: 90px;
+}
+
+.container{     /*COMENTARIOS*/
+	
+	background: white;
+	height: 200px;
+	width: 600px;
+	margin-left: 700px;
+	margin-top: -600px;
+}
+
+.txt{  /*CONTENEDOR COMENTARIOS*/
+	font-family: Roboto;
+	font-size:16px;
+	font-weight: 400;
+	border: none;
+	height: 90px;
+	width: 595px;
+}
+
+button{   /*boton tweets*/
+	height: 40px;
+	width: 100px;
+	border-radius: 2px;
+	background: #28AAE1;
+	color: white;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight:100;
+	margin-left: 30px;
+	margin-top: 10px;
+
+}
+button:hover{
+	background: grey;
+	color:lightgrey;
+}
+
+.counter{
+	font-family: sans-serif;
+	font-size: 16px;
+	margin-left: 400px;
+}    
+/*FIN COMENTARIOS*/
+
+/*PUBLICACIÓN TWEET*/
+.#cont{
+	background: white;
+	height: 50px;
+	width: 800px;
+}

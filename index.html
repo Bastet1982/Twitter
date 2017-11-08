@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+</head>
+<body>
+	<header> <!--ENCABEZADO-->
+		<div class="t1">
+			<h1>Twitter</h1>
+		</div>
+	</header><!--FIN ENCABEZADO-->
+
+	<section class="back"> <!--SALUDO-->
+
+		<div class="data">
+			<h2>Reto de Código</h2>
+			<p>Hola<br>
+			   soy front-end developer jr.</p>
+			<h3>CÓDIGO</h3>   
+		</div>
+	</section> <!--FIN SALUDO-->
+
+	<section class="center"> <!--CONTENEDOR DE COMENTARIOS // ACCIÓN JS-->
+		<div class="container">
+		    <textarea class="txt" id="comment" placeholder="¿Qué está pasando?"></textarea>	 <!--CONTENEDOR COMMENT-->
+		    <hr>
+		    <button type="button" id="btn" onclick="add()">Tweet</button>	<!--BOTON DE TWITTEO //ACCION-->
+		    <span class="counter">140</span>  <!--CONTADOR--> 
+		</div>
+		<div id="cont">
+			<table id="reloj" border='0'>
+             <tr>
+              <td><div id='hora'></div></td>
+              <td><div>:</div></td>
+              <td><div id='minuto'></div></td>
+              <td><div>:</div></td>
+            </tr>
+            </table>  
+		</div> 	
+	</section>
+	<!--ARCHIVOS SCRIPT-->
+	<script type="text/javascript" src="assets/js/app.js"></script> 
+	<script src="https://momentjs.com"></script>
+	
+</body>
+</html>
