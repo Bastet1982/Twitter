@@ -2,55 +2,59 @@ body{
   margin: 0 auto;
 }
 
-.t1{        /*TITULO ENCABEZADO*/
-	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 100;
-	color: white;
-	background: #28AAE1;
-	text-align: center;
-	padding: 7px;
+.logo{        /*TITULO ENCABEZADO*/
+	height: 50px;
+	width:70px;
+	margin-left: 650px;
+	margin-top: 10px;
 }
 
 .back{    /*IMAGEN DE FONDO*/
 	background-image: url(https://img00.deviantart.net/40be/i/2012/203/2/3/fondos_para_twitter_jpg_by_gianferdinand-d587jdz.jpg);
 	height:700px;
 	width:1420px;
-	margin-top: -20px; 
+	margin-top: 8px; 
+	display: inline-block;
 }	
+
 .data{       /*SALUDO*/
 	
 	background: white;
 	margin-left: 100px;
-	font-family: Roboto;
+	margin-top: 50px;
+	font-family:Raleway ;
 	height: 200px;
 	width: 450px;
 	padding-left: 20px;
 	padding-bottom: 10px;
-	
-}
-h3{
-	color:blue;
-	margin-top: 90px;
+	display: inline-block;
 }
 
-.container{     /*COMENTARIOS*/
-	
+h3{
+	color:blue;
+	margin-top: 70px;
+}
+
+.container{     
 	background: white;
 	height: 200px;
 	width: 600px;
-	margin-left: 700px;
-	margin-top: -600px;
+	position: relative;
+	left:700px;
+	top:-645px;
+	
+	display: inline-block;
 }
 
-.txt{  /*CONTENEDOR COMENTARIOS*/
-	font-family: Roboto;
+.txt{  /*TWEET*/
+	font-family: Raleway;
 	font-size:16px;
 	font-weight: 400;
 	border: none;
 	height: 90px;
 	width: 595px;
-}
+	display: inline-block;
+} 
 
 button{   /*boton tweets*/
 	height: 40px;
@@ -58,28 +62,33 @@ button{   /*boton tweets*/
 	border-radius: 2px;
 	background: #28AAE1;
 	color: white;
-	font-family: Roboto;
+	font-family: Raleway;
 	font-size: 14px;
 	font-weight:100;
 	margin-left: 30px;
 	margin-top: 10px;
-
 }
 button:hover{
 	background: grey;
 	color:lightgrey;
 }
 
-.counter{
-	font-family: sans-serif;
+.counter{       /*CONTADOR*/
+	font-family:Raleway;
 	font-size: 16px;
 	margin-left: 400px;
 }    
 /*FIN COMENTARIOS*/
 
-/*PUBLICACIÓN TWEET*/
-.#cont{
+/*PUBLICACIÓN TWEET*/ 
+.cont{
 	background: white;
-	height: 50px;
-	width: 800px;
 }
+.color{
+   font-family: Raleway;
+   font-size: 16px;	
+   margin-left: 100px;
+   margin-top: -600px;
+}
+
+
